@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+#use_frameworks!个别需要用到它，比如reactiveCocoa
+
+target ‘项目名’ do
+pod 'AFNetworking', '~> 3.0.4'
+pod 'MJRefresh', '~> 3.1.0'
+pod 'SDWebImage', '~> 3.7.5'
+pod 'Masonry', '~> 1.0.1'
+pod 'FMDB', '~> 2.6.2'
+pod 'SVProgressHUD', '~> 2.1.2'
+end
